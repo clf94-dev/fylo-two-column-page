@@ -1,0 +1,148 @@
+#title {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.illust1,
+.illust2 {
+    width: 90%;
+    text-align: center;
+}
+
+#Title,
+#top,
+#actioncall .row {
+    margin: 6% 6% 0 6%;
+    text-align: left;
+}
+
+.col-logo-header {
+    text-align: left;
+}
+
+.col-header-link {
+    align-content: right;
+    margin: 0 3%;
+}
+
+#middle {
+    background-color: hsl(240, 75%, 98%);
+}
+
+#middle .row {
+    margin: 6% 5% 0 6%;
+    text-align: left;
+    padding: 0 1% 0 0%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-image: url(file:///F:/codigos%20atom/fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);
+}
+
+.testimonial {
+    border-radius: 100%;
+}
+
+.illust2 {
+    width: 100%;
+    padding-top: 50%;
+}
+
+#actioncall,
+#footer {
+    color: white;
+}
+
+#actioncall {
+    background-color: hsl(238, 22%, 44%);
+    padding: 1% 0 3% 0;
+    margin: 0;
+}
+
+#footer {
+    background-color: hsl(243, 87%, 12%);
+    text-align: left;
+    padding: 0 0 3% 0;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+
+h3,
+h4,
+h5 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 0 0 3% 0;
+}
+
+.row .header-link {
+    font-family: "Raleway";
+    font-weight: 400;
+    padding: 0% 5px;
+    text-decoration: none;
+    margin: 0 0 0 100px;
+}
+
+.testimonial {}
+
+.name-testimonial {
+    font-weight: 700;
+}
+
+#actioncall h2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#footer {
+    padding: 3% 7%;
+}
+
+#footer .logo-header {
+    padding-bottom: 3%;
+}
+
+.container-fluid .logo-header {
+    margin-left: 0;
+}
+
+.iconos {
+    color: white;
+}
+
+.link-middle-icon {
+    width: 20px;
+}
+
+.link-middle {
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+}
+
+.card {
+    width: 50%;
+    margin: 4% 0 6% 0;
+}
