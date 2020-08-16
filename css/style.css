@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-family: "Raleway";
+}
+
+nav .logo-header {
+  width: 150px;
+  padding-top: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-links a {
+  color: #585989;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3c9f8f;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    width: 50%;
+  }
+  .nav-links a {
+    align-items: center;
+  }
+}
+
+.top-row {
+  padding: 5% 6%;
+}
+
+.top-row .text-col {
+  padding: 5% 6%;
+}
+
+.top-row .text-col h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.top-row .text-col p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 0 0 3% 0;
+}
+
+.top-row .text-col input {
+  height: 50px;
+}
+
+.top-row .text-col button {
+  height: 50px;
+}
+
+.top-row .img-col {
+  padding: 3%;
+}
+
+.top-row .img-col img {
+  width: 100%;
+}
+
+.bg-middle {
+  position: relative;
+  top: 1px;
+}
+
+.middle-row {
+  padding: 2% 6% 5% 6%;
+  background-color: #f6f6fe;
+}
+
+.middle-row .text-col {
+  padding: 3% 6%;
+}
+
+.middle-row .text-col h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.middle-row .text-col p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 0 0 3% 0;
+}
+
+.middle-row .text-col a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #3c9f8f;
+}
+
+.middle-row .text-col a img {
+  width: 20px;
+}
+
+.middle-row .text-col .card {
+  margin-top: 20px;
+}
+
+.middle-row .text-col .card .card-body p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 0 0 3% 0;
+}
+
+.middle-row .text-col .card .card-body .testimonial {
+  border-radius: 50%;
+  width: 90px;
+}
+
+.middle-row .text-col .card .card-body .name-col .name-testimonial {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 20px;
+  padding: 0 0 3% 0;
+  font-weight: 700;
+}
+
+.middle-row .text-col .card .card-body .name-col p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0 0 3% 0;
+}
+
+.middle-row .img-col img {
+  margin-top: 25%;
+  width: 100%;
+}
+
+@media screen and (max-width: 789px) {
+  .illust2 {
+    margin: 2% auto 10% auto !important;
+  }
+  .reverse {
+    flex-flow: column-reverse;
+  }
+}
+
+.cta-row {
+  background-color: #585989;
+  padding: 5% 6%;
+}
+
+.cta-row .text-col {
+  padding: 2% 6%;
+  color: white !important;
+}
+
+.cta-row .text-col h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.cta-row .text-col p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0 0 3% 0;
+}
+
+.cta-row .input-col {
+  padding: 3% 5%;
+}
+
+.cta-row .input-col input {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cta-row .input-col button {
+  height: 50px;
+  width: 50%;
+}
+
+@media screen and (max-width: 789px) {
+  .cta-row {
+    text-align: center;
+  }
+  .cta-row .input-col button {
+    width: 100%;
+  }
+}
+
+.footer-cont {
+  background-color: #070439;
+  color: white;
+  padding: 5% 6%;
+}
+
+.footer-cont .logo-header {
+  width: 150px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-cont h3 {
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.footer-cont h3:hover {
+  color: #3c9f8f;
+}
+
+.footer-cont i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.footer-cont .contact-row {
+  margin-left: 1%;
+}
+
+.footer-cont .contact-row:hover {
+  color: #3c9f8f;
+}
+
+.footer-cont .iconos i:hover {
+  color: #3c9f8f;
+}
+
+@media screen and (max-width: 789px) {
+  .footer-cont {
+    text-align: center;
+  }
+  .footer-cont .contact-row {
+    justify-content: center;
+  }
+}
